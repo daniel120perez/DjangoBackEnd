@@ -12,6 +12,7 @@ router.register('Workers', views.WorkerViewSet)
 
 
 urlpatterns = [
+    
     path('admin/', admin.site.urls),
     path('api/v1/', include(router.urls)),
     url(r'api/v1/format/Workers/(?P<pk>[0-9]+)/$', views.WorkerDetail.as_view()),
