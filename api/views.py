@@ -11,6 +11,7 @@ class WorkerViewSet(viewsets.ModelViewSet):
 
     filter_backends = [filters.SearchFilter, filters.OrderingFilter]
     search_fields = ['name']
+    
     ordering_fields = ['id']
 
 class WorkerDetail(generics.RetrieveUpdateDestroyAPIView):

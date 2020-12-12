@@ -9,4 +9,5 @@ class Worker(models.Model):
     email = models.EmailField(max_length=254)
 
     class Meta:
+        
         ordering = ['name']
