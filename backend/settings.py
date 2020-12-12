@@ -69,7 +69,7 @@ ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
     {
-        
+
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
@@ -100,6 +100,7 @@ DATABASES = {
         'PORT': '5432',
     } 
 }
+# Api settings fel.simbolo
 
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:4200',
